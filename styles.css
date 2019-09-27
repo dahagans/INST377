@@ -1,0 +1,36 @@
+
+
+	body{
+
+		background-color:lightblue;
+		width: 60%;
+		margin-left: 20% 
+
+	}
+	
+
+	.header {
+		text-align: center;
+		background: #707776;
+		color: white;
+		justify-content: center;
+	  }
+
+	
+	img{
+		width: 100%;
+		
+		
+	}
+	.container {
+		display: flex;
+		
+		justify-content: space-around;
+		
+
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+
+	
