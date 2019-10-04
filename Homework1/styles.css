@@ -1,0 +1,56 @@
+
+
+	body{
+
+		background-color:lightblue;
+		width: 60%;
+		margin-left: 20% 
+
+	}
+	
+
+	.header {
+		text-align: center;
+		background: #707776;
+		color: white;
+		justify-content: center;
+	  }
+
+	
+	img{
+
+		width: 100%;
+
+		
+		
+	}
+
+	
+	.newspaper {
+        /* Old Chrome, Safari, Opera */
+        -webkit-column-count: 2; 
+        -webkit-column-width: 100px;
+          
+        /* Old Firefox */
+        -moz-column-count: 3;
+        -moz-column-width: 100px;
+      
+        /* Statndard syntax */
+        column-count: 2;
+        column-width: 100px;
+      }
+		  
+	}/* Create two equal columns that floats next to each other */
+    .column {
+
+		float: left;
+		width: 28%;
+		padding: 10px;
+		height: auto; /* Should be removed. Only for demonstration */
+  	}
+  
+  /* Clear floats after the columns */
+    .row:after {
+		display: table;
+		clear: both;
+	}
